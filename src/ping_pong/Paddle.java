@@ -5,8 +5,10 @@ import java.util.*;
 import javax.swing.*;
 
 
-public class Borda {
-	Borda(){
+public class Paddle extends Rectangle{
+	int id;
+	int yVelocity;
+	Paddle(){
 		
 	}
 	public void keyPressed(KeyEvent e) {
@@ -18,5 +20,8 @@ public class Borda {
 	public void setYDirection(int YDirection) {
 		 
 	}
-
+	public void move() {	
+	}
+	public void draw(Graphics g) {	
+	}
 }
