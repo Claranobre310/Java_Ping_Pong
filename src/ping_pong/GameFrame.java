@@ -5,6 +5,9 @@ import java.util.*;
 import javax.swing.*;
 				/* game frame */
 public class GameFrame extends JFrame{
+	
+	GamePanel Panel = new GamePanel();
+
 	GameFrame(){
 		
 	}
